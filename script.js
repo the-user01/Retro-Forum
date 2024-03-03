@@ -122,6 +122,7 @@ const handleSearchBtn = () => {
     loadSearchingData(inputText);
 }
 
+/* load and show searched information */
 
 const loadSearchingData = async (data) => {
     
@@ -281,7 +282,7 @@ const showLatestPost = (data) => {
 }
 
 
-/* Spinner */
+/* Spinner shows to while loading data */
 
 const showSpinner = (id, isLoading) =>{
     const getSpinner =  document.getElementById(id);
