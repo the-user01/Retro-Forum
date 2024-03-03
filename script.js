@@ -39,7 +39,7 @@ const showData = (data) => {
                                 <div class="grid w-32 h-32 bg-base-300 place-items-center"><img src="${image}" alt=""></div>
                             </div>
 
-                            <div class="space-y-4 w-3/4">
+                            <div class="space-y-4 w-full lg:w-3/4">
                                 <div class="flex gap-6">
                                     <p><span>#</span>${category}</p>
                                     <p><span>Author :</span> ${author.name}</p>
@@ -158,14 +158,13 @@ const showSearchedData = (data) => {
 
         postCard.innerHTML = `
 
-                    <div class="hero-content flex-col lg:flex-row gap-6 lg:gap-12">
+                    <div class="hero-content flex-col lg:flex-row gap-6 lg:gap-12 w-full">
                             <div class="indicator ">
                                 <span class="indicator-item badge ${bgcolor}"></span>
                                 <div class="grid w-32 h-32 bg-base-300 place-items-center"><img src="${image}" alt=""></div>
                             </div>
 
-                            <!-- Information -->
-                            <div class="space-y-4 ">
+                            <div class="space-y-4 w-full lg:w-3/4">
                                 <div class="flex gap-6">
                                     <p><span>#</span>${category}</p>
                                     <p><span>Author :</span> ${author.name}</p>
